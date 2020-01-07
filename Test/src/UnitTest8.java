@@ -18,7 +18,7 @@ class UnitTest8 {
              put("grape",2);
          }};
         ArrayList<HashMap<String,Object>> finalResult = new ArrayList<HashMap<String,Object>>();
-		InventoryAllocator actualResult = new InventoryAllocator(order,finalResult);
-		Assert.assertEquals("[]", actualResult.getBestShipment());		
+		InventoryAllocator actualResult = new InventoryAllocator(finalResult);
+		assertEquals("[]", actualResult.getBestShipment(order));		
 	}
 }

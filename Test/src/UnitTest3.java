@@ -39,7 +39,7 @@ class UnitTest3 {
 			}});
 			
 		}};
-		InventoryAllocator actualResult = new InventoryAllocator(order,finalResult);
-		Assert.assertEquals("[{owd={apple=5}}, {dm={apple=5}}]", actualResult.getBestShipment());		
+		InventoryAllocator actualResult = new InventoryAllocator(finalResult);
+		assertEquals("[{owd={apple=5}}, {dm={apple=5}}]", actualResult.getBestShipment(order));		
 	}
 }

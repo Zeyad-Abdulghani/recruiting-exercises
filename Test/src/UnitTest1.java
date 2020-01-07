@@ -5,8 +5,6 @@ import java.util.HashMap;
 
 import org.junit.jupiter.api.Test;
 
-import junit.framework.Assert;
-
 class UnitTest1 {
 
 	@Test
@@ -28,8 +26,8 @@ class UnitTest1 {
 						);
 			}});
 		}};
-		InventoryAllocator actualResult = new InventoryAllocator(order,finalResult);
-		Assert.assertEquals("[{owd={apple=1}}]", actualResult.getBestShipment());		
+		InventoryAllocator actualResult = new InventoryAllocator(finalResult);
+		assertEquals("[{owd={apple=1}}]", actualResult.getBestShipment(order));		
 	}
 
 }

@@ -41,7 +41,7 @@ class UnitTest9 {
 			}});
 			
 		}};
-		InventoryAllocator actualResult = new InventoryAllocator(order,finalResult);
-		Assert.assertEquals("[]", actualResult.getBestShipment());		
+		InventoryAllocator actualResult = new InventoryAllocator(finalResult);
+		assertEquals("[]", actualResult.getBestShipment(order));		
 	}
 }
