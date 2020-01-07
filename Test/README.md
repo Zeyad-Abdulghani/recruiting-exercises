@@ -18,7 +18,7 @@ What things you need to install the software and how to install them
 ## Running the tests
 ```
 1- Clone the repo into your local machine then open the project using Eclipse.
-2- Once the project is open, go the src directry and right click the test case you wish to run and then select "Run as" and then "1 JUnit Test"
+2- Once the project is open, go to the src directory and right click the test case you wish to run and then select "Run as" and then "1 JUnit Test"
 ```
 
 ## Authors
