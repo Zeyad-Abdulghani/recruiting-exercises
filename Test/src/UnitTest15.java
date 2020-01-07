@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import junit.framework.Assert;
 
+//single item order, negative item quantity in inventory, order unfilled due to negative item quantity in inventory.
 class UnitTest15 {
 
 	@Test
