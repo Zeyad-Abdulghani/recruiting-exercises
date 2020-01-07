@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import junit.framework.Assert;
 
+//multiple item order, multiple warehouses with same items but different quantity, order filled by splitting across warehouses
 class UnitTest6 {
 
 	@Test
